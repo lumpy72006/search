@@ -1,0 +1,75 @@
+/* General reset and styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--COEmY);
+}
+
+/* Header section for navigation links */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 6px;
+  height: 60px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #5f6368;
+  font-size: small;
+  padding: 5px;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+/* Main search page layout */
+.main-content,
+.google-logo,
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search-container {
+  text-align: center;
+}
+
+.text-input {
+  width: 500px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 1px solid #dcdfe1;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  height: 70px;
+}
+
+input[type="submit"] {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
